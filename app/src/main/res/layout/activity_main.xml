@@ -21,4 +21,20 @@
         android:layout_marginTop="10dp"
         android:text="Toast提示"
         android:textAllCaps="false" />
+
+    <com.zking.widget.TextBarView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:decSize="38sp"
+        app:descColor="#f9f"
+        app:description="内容容内容内容内容内容内容"
+        app:title="标题内容"
+        app:titleColor="#f9f"
+        app:titleSize="18sp"></com.zking.widget.TextBarView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="内容内容"
+        android:textSize="18sp" />
 </LinearLayout>

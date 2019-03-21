@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.ContentUris;
 import android.content.Context;
 import android.content.pm.PackageManager;
+import android.content.res.Resources;
 import android.database.Cursor;
 import android.location.LocationManager;
 import android.net.ConnectivityManager;
@@ -1063,7 +1064,12 @@ public class StringUtils {
         final float scale = context.getResources().getDisplayMetrics().density;
         return (int) (dpValue * scale + 0.5f);
     }
-
+    /**
+     * 根据手机的分辨率从 dp 的单位 转成为 px(像素)
+     */
+    public static int dp2px(float dpValue) {
+        return (int) (0.5f + dpValue * Resources.getSystem().getDisplayMetrics().density);
+    }
     /**
      * 从距离类型字符串中提取数值
      * eg："22.22 km"
