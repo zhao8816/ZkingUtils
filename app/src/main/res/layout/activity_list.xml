@@ -6,4 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".ListActivity">
 
+    <com.zking.widget.refreshview.RefreshView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></com.zking.widget.refreshview.RefreshView>
 </android.support.constraint.ConstraintLayout>

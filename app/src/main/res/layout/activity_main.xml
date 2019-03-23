@@ -30,11 +30,16 @@
         app:description="内容容内容内容内容内容内容"
         app:title="标题内容"
         app:titleColor="#f9f"
-        app:titleSize="18sp"></com.zking.widget.TextBarView>
+        app:titleSize="18sp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="内容内容"
         android:textSize="18sp" />
+
+    <com.zking.widget.CircleImg
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/bg_desktop" />
 </LinearLayout>
